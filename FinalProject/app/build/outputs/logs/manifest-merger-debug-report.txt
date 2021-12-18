@@ -5,40 +5,27 @@ INJECTED from D:\Git\Projects\finalproject-android\FinalProject\app\src\main\And
 INJECTED from D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:2:1-36:12
 INJECTED from D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:2:1-36:12
 MERGED from [io.realm:realm-android-library:10.7.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\2fb66a3c4cf839d41a7e015f77b28ade\transformed\jetified-realm-android-library-10.7.0\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\5266b37866eb82a3254c8438ac70fef5\transformed\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:2:1-26:12
-MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\9c72e51cc1cd42ac347cd76b0a82fb3b\transformed\jetified-grpc-android-1.28.0\AndroidManifest.xml:2:1-13:12
-MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\5374349127c73831d94a79cb5daf61f0\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\b398ab048a84dc3ba470f1939a19c33e\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [io.realm:android-adapters:4.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\e0676ed3c793a79719e9fba9a9ff7689\transformed\jetified-android-adapters-4.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\36201280df1209d7c9dd3eef49a28b46\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\588d3003305f383a65e4b9df8d83a8f8\transformed\constraintlayout-2.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\b1bef7a715cc0e1ec837076b849acc3b\transformed\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.3] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\098c26e5825aa3a291a24f8163644b30\transformed\jetified-relinker-1.4.3\AndroidManifest.xml:2:1-7:12
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\dcb29dd7c3ae0ec8a8a859debd81790d\transformed\jetified-rxandroid-2.1.1\AndroidManifest.xml:15:1-20:12
-MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\a11b3a81d349794c89a69df182aa3d9c\transformed\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\4a668f6d110285ba540cac811e045c0a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\f44277512c40ad7649fce63ba6580e18\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\87a6230214635df454db2b96c05cce0e\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:15:1-49:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\84264183ab7ac5f5c2d7956ef8f28dd0\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\645340c4a945617d5de3f895ead3ab86\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\21185531cd5357339cbd142af7596c96\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\2d0a8e3e3debe712796cd7f0d7ebfe7f\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\5fb2f77658ad2b5a8d39801802506374\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\f5a78a98d83ac6566dedc9b1ad53e010\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\e64f3a5427c44afc08fe7fe50ec12566\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\d95543fd7b5fe29d49e4b4f624835253\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\68b352c63e80406a6de2b55b3e5a1f54\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\3f1a609090a53bac162c3dbb6b7b9e03\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.3.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\95705bc4866920d033e474abab2cd9e2\transformed\transition-1.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\fa2824ac8cd1915da368538d6fef8801\transformed\jetified-firebase-components-16.1.0\AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\b331b78ff5e7688305f87af71dcbce0d\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\c967606325639e793421ce795396a1aa\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\f7fa7975a61365799b4f452ea64e579e\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\e64f3a5427c44afc08fe7fe50ec12566\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\ce7a10edaed7644ae34565e99868b663\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\33c86797e0b532f8c34c184f535702b2\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\b5ce33ad545b8cc102b345fc74869563\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\117422a0d056bd503e1e0469d08bfd69\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\b93d7f18655e34db59d012c4b49dd4b2\transformed\navigation-common-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\d95543fd7b5fe29d49e4b4f624835253\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\d1916a8873899563c76954bdd7f5a52d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\3e78706abc37c16b988e0eb7212e8c90\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\68b352c63e80406a6de2b55b3e5a1f54\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\828c99fa70da551ea13d8f1e1a205aa4\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.5.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\aef659a94d519f0124d3c87d4eb95147\transformed\core-1.5.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\4f6c9dcfdd509df44fdd2456302d795a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\0890a2199ecdc240d5bc8eca85bdd79d\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
@@ -55,7 +42,6 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\James Homer Reot
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\3676ac72ab394bc69d108c3c1a579ecb\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\4971c2d75ec9542b2cb291ba07eae3a3\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\b99d72da3d08e13cbc4fcb3e47588cd4\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\80e3073074574853b603c50ff9b515c2\transformed\jetified-protolite-well-known-types-17.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\fa2ae545110e4b60dc5dec3749b2985d\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 INJECTED from D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:2:1-36:12
 INJECTED from D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:2:1-36:12
@@ -76,22 +62,10 @@ INJECTED from D:\Git\Projects\finalproject-android\FinalProject\app\src\main\And
 		ADDED from D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:2:11-69
 application
 ADDED from D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:5:5-34:19
-MERGED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\5266b37866eb82a3254c8438ac70fef5\transformed\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:16:5-24:19
-MERGED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\5266b37866eb82a3254c8438ac70fef5\transformed\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\36201280df1209d7c9dd3eef49a28b46\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\36201280df1209d7c9dd3eef49a28b46\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\588d3003305f383a65e4b9df8d83a8f8\transformed\constraintlayout-2.1.1\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\588d3003305f383a65e4b9df8d83a8f8\transformed\constraintlayout-2.1.1\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\4a668f6d110285ba540cac811e045c0a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\4a668f6d110285ba540cac811e045c0a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\f44277512c40ad7649fce63ba6580e18\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\f44277512c40ad7649fce63ba6580e18\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\87a6230214635df454db2b96c05cce0e\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:25:5-47:19
-MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\87a6230214635df454db2b96c05cce0e\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:25:5-47:19
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\84264183ab7ac5f5c2d7956ef8f28dd0\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\84264183ab7ac5f5c2d7956ef8f28dd0\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\645340c4a945617d5de3f895ead3ab86\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\645340c4a945617d5de3f895ead3ab86\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.5.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\aef659a94d519f0124d3c87d4eb95147\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.5.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\aef659a94d519f0124d3c87d4eb95147\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\8760204999b6afa32bcecfa5d6cbc76d\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
@@ -158,14 +132,6 @@ INJECTED from D:\Git\Projects\finalproject-android\FinalProject\app\src\main\And
 INJECTED from D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml
 MERGED from [io.realm:realm-android-library:10.7.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\2fb66a3c4cf839d41a7e015f77b28ade\transformed\jetified-realm-android-library-10.7.0\AndroidManifest.xml:6:5-8:41
 MERGED from [io.realm:realm-android-library:10.7.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\2fb66a3c4cf839d41a7e015f77b28ade\transformed\jetified-realm-android-library-10.7.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\5266b37866eb82a3254c8438ac70fef5\transformed\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\5266b37866eb82a3254c8438ac70fef5\transformed\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:7:5-9:41
-MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\9c72e51cc1cd42ac347cd76b0a82fb3b\transformed\jetified-grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
-MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\9c72e51cc1cd42ac347cd76b0a82fb3b\transformed\jetified-grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\5374349127c73831d94a79cb5daf61f0\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\5374349127c73831d94a79cb5daf61f0\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\b398ab048a84dc3ba470f1939a19c33e\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\b398ab048a84dc3ba470f1939a19c33e\transformed\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [io.realm:android-adapters:4.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\e0676ed3c793a79719e9fba9a9ff7689\transformed\jetified-android-adapters-4.0.0\AndroidManifest.xml:5:5-7:41
 MERGED from [io.realm:android-adapters:4.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\e0676ed3c793a79719e9fba9a9ff7689\transformed\jetified-android-adapters-4.0.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\36201280df1209d7c9dd3eef49a28b46\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
@@ -178,54 +144,36 @@ MERGED from [com.getkeepsafe.relinker:relinker:1.4.3] C:\Users\James Homer Reotu
 MERGED from [com.getkeepsafe.relinker:relinker:1.4.3] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\098c26e5825aa3a291a24f8163644b30\transformed\jetified-relinker-1.4.3\AndroidManifest.xml:5:5-43
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\dcb29dd7c3ae0ec8a8a859debd81790d\transformed\jetified-rxandroid-2.1.1\AndroidManifest.xml:18:5-43
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\dcb29dd7c3ae0ec8a8a859debd81790d\transformed\jetified-rxandroid-2.1.1\AndroidManifest.xml:18:5-43
-MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\a11b3a81d349794c89a69df182aa3d9c\transformed\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\a11b3a81d349794c89a69df182aa3d9c\transformed\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\4a668f6d110285ba540cac811e045c0a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\4a668f6d110285ba540cac811e045c0a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\f44277512c40ad7649fce63ba6580e18\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\f44277512c40ad7649fce63ba6580e18\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\87a6230214635df454db2b96c05cce0e\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\87a6230214635df454db2b96c05cce0e\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\84264183ab7ac5f5c2d7956ef8f28dd0\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\84264183ab7ac5f5c2d7956ef8f28dd0\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\645340c4a945617d5de3f895ead3ab86\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\645340c4a945617d5de3f895ead3ab86\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\21185531cd5357339cbd142af7596c96\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\21185531cd5357339cbd142af7596c96\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\2d0a8e3e3debe712796cd7f0d7ebfe7f\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\2d0a8e3e3debe712796cd7f0d7ebfe7f\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\5fb2f77658ad2b5a8d39801802506374\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\5fb2f77658ad2b5a8d39801802506374\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\f5a78a98d83ac6566dedc9b1ad53e010\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\f5a78a98d83ac6566dedc9b1ad53e010\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\e64f3a5427c44afc08fe7fe50ec12566\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\e64f3a5427c44afc08fe7fe50ec12566\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\d95543fd7b5fe29d49e4b4f624835253\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\d95543fd7b5fe29d49e4b4f624835253\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\68b352c63e80406a6de2b55b3e5a1f54\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\68b352c63e80406a6de2b55b3e5a1f54\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\3f1a609090a53bac162c3dbb6b7b9e03\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\3f1a609090a53bac162c3dbb6b7b9e03\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.3.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\95705bc4866920d033e474abab2cd9e2\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.3.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\95705bc4866920d033e474abab2cd9e2\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\fa2824ac8cd1915da368538d6fef8801\transformed\jetified-firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\fa2824ac8cd1915da368538d6fef8801\transformed\jetified-firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\b331b78ff5e7688305f87af71dcbce0d\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\b331b78ff5e7688305f87af71dcbce0d\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\c967606325639e793421ce795396a1aa\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\c967606325639e793421ce795396a1aa\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\f7fa7975a61365799b4f452ea64e579e\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\f7fa7975a61365799b4f452ea64e579e\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\e64f3a5427c44afc08fe7fe50ec12566\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\e64f3a5427c44afc08fe7fe50ec12566\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\ce7a10edaed7644ae34565e99868b663\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\ce7a10edaed7644ae34565e99868b663\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\33c86797e0b532f8c34c184f535702b2\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\33c86797e0b532f8c34c184f535702b2\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\b5ce33ad545b8cc102b345fc74869563\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\b5ce33ad545b8cc102b345fc74869563\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\117422a0d056bd503e1e0469d08bfd69\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\117422a0d056bd503e1e0469d08bfd69\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\b93d7f18655e34db59d012c4b49dd4b2\transformed\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\b93d7f18655e34db59d012c4b49dd4b2\transformed\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\d95543fd7b5fe29d49e4b4f624835253\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\d95543fd7b5fe29d49e4b4f624835253\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\d1916a8873899563c76954bdd7f5a52d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\d1916a8873899563c76954bdd7f5a52d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\3e78706abc37c16b988e0eb7212e8c90\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\3e78706abc37c16b988e0eb7212e8c90\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\68b352c63e80406a6de2b55b3e5a1f54\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\68b352c63e80406a6de2b55b3e5a1f54\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\828c99fa70da551ea13d8f1e1a205aa4\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\828c99fa70da551ea13d8f1e1a205aa4\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.5.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\aef659a94d519f0124d3c87d4eb95147\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.5.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\aef659a94d519f0124d3c87d4eb95147\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\4f6c9dcfdd509df44fdd2456302d795a\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
@@ -258,8 +206,6 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\4971c2d75ec9542b2cb291ba07eae3a3\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\b99d72da3d08e13cbc4fcb3e47588cd4\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\b99d72da3d08e13cbc4fcb3e47588cd4\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\80e3073074574853b603c50ff9b515c2\transformed\jetified-protolite-well-known-types-17.1.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\80e3073074574853b603c50ff9b515c2\transformed\jetified-protolite-well-known-types-17.1.1\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\fa2ae545110e4b60dc5dec3749b2985d\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\fa2ae545110e4b60dc5dec3749b2985d\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 INJECTED from D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml
@@ -272,63 +218,3 @@ INJECTED from D:\Git\Projects\finalproject-android\FinalProject\app\src\main\And
 		INJECTED from D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml
 		ADDED from D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\5266b37866eb82a3254c8438ac70fef5\transformed\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:13:5-79
-MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\9c72e51cc1cd42ac347cd76b0a82fb3b\transformed\jetified-grpc-android-1.28.0\AndroidManifest.xml:11:5-79
-MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\9c72e51cc1cd42ac347cd76b0a82fb3b\transformed\jetified-grpc-android-1.28.0\AndroidManifest.xml:11:5-79
-	android:name
-		ADDED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\5266b37866eb82a3254c8438ac70fef5\transformed\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:13:22-76
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\5266b37866eb82a3254c8438ac70fef5\transformed\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:14:5-67
-	android:name
-		ADDED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\5266b37866eb82a3254c8438ac70fef5\transformed\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:14:22-64
-service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\5266b37866eb82a3254c8438ac70fef5\transformed\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:17:9-23:19
-MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\87a6230214635df454db2b96c05cce0e\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:33:9-46:19
-MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\87a6230214635df454db2b96c05cce0e\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:33:9-46:19
-	android:exported
-		ADDED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\5266b37866eb82a3254c8438ac70fef5\transformed\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:19:13-37
-	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\87a6230214635df454db2b96c05cce0e\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:37:13-32
-	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\87a6230214635df454db2b96c05cce0e\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
-	android:name
-		ADDED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\5266b37866eb82a3254c8438ac70fef5\transformed\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:18:13-84
-meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
-ADDED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\5266b37866eb82a3254c8438ac70fef5\transformed\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:20:13-22:85
-	android:value
-		ADDED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\5266b37866eb82a3254c8438ac70fef5\transformed\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:22:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\5266b37866eb82a3254c8438ac70fef5\transformed\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:21:17-111
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\4a668f6d110285ba540cac811e045c0a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\4a668f6d110285ba540cac811e045c0a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\4a668f6d110285ba540cac811e045c0a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\4a668f6d110285ba540cac811e045c0a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\87a6230214635df454db2b96c05cce0e\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
-	android:authorities
-		ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\87a6230214635df454db2b96c05cce0e\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
-	android:exported
-		ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\87a6230214635df454db2b96c05cce0e\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
-	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\87a6230214635df454db2b96c05cce0e\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
-	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\87a6230214635df454db2b96c05cce0e\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
-	android:name
-		ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\87a6230214635df454db2b96c05cce0e\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
-meta-data#com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar
-ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\87a6230214635df454db2b96c05cce0e\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
-	android:value
-		ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\87a6230214635df454db2b96c05cce0e\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\87a6230214635df454db2b96c05cce0e\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\645340c4a945617d5de3f895ead3ab86\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\645340c4a945617d5de3f895ead3ab86\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\James Homer Reotutar\.gradle\caches\transforms-3\645340c4a945617d5de3f895ead3ab86\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58

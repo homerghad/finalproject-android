@@ -22,7 +22,7 @@ public class TransactionAdapter extends RealmRecyclerViewAdapter<Rental, Transac
     ManageTransactionsActivity activity;
 
     public TransactionAdapter(ManageTransactionsActivity activity, @Nullable OrderedRealmCollection<Rental> data, boolean autoUpdate) {
-        super(activity, data, autoUpdate);
+        super(data, autoUpdate);
 
         // THIS IS TYPICALLY THE ACTIVITY YOUR RECYCLERVIEW IS IN
         this.activity = activity;
