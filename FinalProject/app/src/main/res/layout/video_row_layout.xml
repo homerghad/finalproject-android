@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="12dp">
+
+    <ImageView
+        android:id="@+id/movieImage"
+        android:layout_width="91dp"
+        android:layout_height="85dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <ImageView
+        android:id="@+id/addToCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/addLabel"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.753"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <TextView
+        android:id="@+id/movieTitle"
+        android:layout_width="150dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Title"
+        app:layout_constraintStart_toEndOf="@+id/movieImage"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+        android:id="@+id/moviePrice"
+        android:layout_width="150dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="8dp"
+        android:text="Price"
+        app:layout_constraintStart_toStartOf="@+id/movieTitle"
+        app:layout_constraintTop_toBottomOf="@+id/movieTitle" />
+
+    <TextView
+        android:id="@+id/addLabel"
+        android:layout_width="75dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Add to Cart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toEndOf="@+id/movieImage"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.729" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
