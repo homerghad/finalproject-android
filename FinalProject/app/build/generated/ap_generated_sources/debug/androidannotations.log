@@ -1,0 +1,1 @@
+21:38:12.477 [Execution worker for ':' Thread 2] WARN  o.a.i.p.ModelValidator:78 - The component ManageTransactionsActivity_ is not registered in the AndroidManifest.xml file.

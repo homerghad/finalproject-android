@@ -44,18 +44,22 @@ public class csci81_demo_finalproject_realm_RentalRealmProxy extends csci81.demo
 
     static final class RentalColumnInfo extends ColumnInfo {
         long rentalIDColKey;
+        long transactionIDColKey;
         long userIDColKey;
         long movieIDColKey;
+        long statusColKey;
         long rentalDateColKey;
         long returnDateColKey;
         long quantityColKey;
 
         RentalColumnInfo(OsSchemaInfo schemaInfo) {
-            super(6);
+            super(8);
             OsObjectSchemaInfo objectSchemaInfo = schemaInfo.getObjectSchemaInfo("Rental");
             this.rentalIDColKey = addColumnDetails("rentalID", "rentalID", objectSchemaInfo);
+            this.transactionIDColKey = addColumnDetails("transactionID", "transactionID", objectSchemaInfo);
             this.userIDColKey = addColumnDetails("userID", "userID", objectSchemaInfo);
             this.movieIDColKey = addColumnDetails("movieID", "movieID", objectSchemaInfo);
+            this.statusColKey = addColumnDetails("status", "status", objectSchemaInfo);
             this.rentalDateColKey = addColumnDetails("rentalDate", "rentalDate", objectSchemaInfo);
             this.returnDateColKey = addColumnDetails("returnDate", "returnDate", objectSchemaInfo);
             this.quantityColKey = addColumnDetails("quantity", "quantity", objectSchemaInfo);
@@ -76,8 +80,10 @@ public class csci81_demo_finalproject_realm_RentalRealmProxy extends csci81.demo
             final RentalColumnInfo src = (RentalColumnInfo) rawSrc;
             final RentalColumnInfo dst = (RentalColumnInfo) rawDst;
             dst.rentalIDColKey = src.rentalIDColKey;
+            dst.transactionIDColKey = src.transactionIDColKey;
             dst.userIDColKey = src.userIDColKey;
             dst.movieIDColKey = src.movieIDColKey;
+            dst.statusColKey = src.statusColKey;
             dst.rentalDateColKey = src.rentalDateColKey;
             dst.returnDateColKey = src.returnDateColKey;
             dst.quantityColKey = src.quantityColKey;
@@ -124,6 +130,36 @@ public class csci81_demo_finalproject_realm_RentalRealmProxy extends csci81.demo
 
         proxyState.getRealm$realm().checkIfValid();
         throw new io.realm.exceptions.RealmException("Primary key field 'rentalID' cannot be changed after object was created.");
+    }
+
+    @Override
+    @SuppressWarnings("cast")
+    public String realmGet$transactionID() {
+        proxyState.getRealm$realm().checkIfValid();
+        return (java.lang.String) proxyState.getRow$realm().getString(columnInfo.transactionIDColKey);
+    }
+
+    @Override
+    public void realmSet$transactionID(String value) {
+        if (proxyState.isUnderConstruction()) {
+            if (!proxyState.getAcceptDefaultValue$realm()) {
+                return;
+            }
+            final Row row = proxyState.getRow$realm();
+            if (value == null) {
+                row.getTable().setNull(columnInfo.transactionIDColKey, row.getObjectKey(), true);
+                return;
+            }
+            row.getTable().setString(columnInfo.transactionIDColKey, row.getObjectKey(), value, true);
+            return;
+        }
+
+        proxyState.getRealm$realm().checkIfValid();
+        if (value == null) {
+            proxyState.getRow$realm().setNull(columnInfo.transactionIDColKey);
+            return;
+        }
+        proxyState.getRow$realm().setString(columnInfo.transactionIDColKey, value);
     }
 
     @Override
@@ -184,6 +220,36 @@ public class csci81_demo_finalproject_realm_RentalRealmProxy extends csci81.demo
             return;
         }
         proxyState.getRow$realm().setString(columnInfo.movieIDColKey, value);
+    }
+
+    @Override
+    @SuppressWarnings("cast")
+    public String realmGet$status() {
+        proxyState.getRealm$realm().checkIfValid();
+        return (java.lang.String) proxyState.getRow$realm().getString(columnInfo.statusColKey);
+    }
+
+    @Override
+    public void realmSet$status(String value) {
+        if (proxyState.isUnderConstruction()) {
+            if (!proxyState.getAcceptDefaultValue$realm()) {
+                return;
+            }
+            final Row row = proxyState.getRow$realm();
+            if (value == null) {
+                row.getTable().setNull(columnInfo.statusColKey, row.getObjectKey(), true);
+                return;
+            }
+            row.getTable().setString(columnInfo.statusColKey, row.getObjectKey(), value, true);
+            return;
+        }
+
+        proxyState.getRealm$realm().checkIfValid();
+        if (value == null) {
+            proxyState.getRow$realm().setNull(columnInfo.statusColKey);
+            return;
+        }
+        proxyState.getRow$realm().setString(columnInfo.statusColKey, value);
     }
 
     @Override
@@ -269,10 +335,12 @@ public class csci81_demo_finalproject_realm_RentalRealmProxy extends csci81.demo
     }
 
     private static OsObjectSchemaInfo createExpectedObjectSchemaInfo() {
-        OsObjectSchemaInfo.Builder builder = new OsObjectSchemaInfo.Builder(NO_ALIAS, "Rental", false, 6, 0);
+        OsObjectSchemaInfo.Builder builder = new OsObjectSchemaInfo.Builder(NO_ALIAS, "Rental", false, 8, 0);
         builder.addPersistedProperty(NO_ALIAS, "rentalID", RealmFieldType.STRING, Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
+        builder.addPersistedProperty(NO_ALIAS, "transactionID", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
         builder.addPersistedProperty(NO_ALIAS, "userID", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
         builder.addPersistedProperty(NO_ALIAS, "movieID", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
+        builder.addPersistedProperty(NO_ALIAS, "status", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
         builder.addPersistedProperty(NO_ALIAS, "rentalDate", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
         builder.addPersistedProperty(NO_ALIAS, "returnDate", RealmFieldType.STRING, !Property.PRIMARY_KEY, !Property.INDEXED, !Property.REQUIRED);
         builder.addPersistedProperty(NO_ALIAS, "quantity", RealmFieldType.INTEGER, !Property.PRIMARY_KEY, !Property.INDEXED, Property.REQUIRED);
@@ -333,6 +401,13 @@ public class csci81_demo_finalproject_realm_RentalRealmProxy extends csci81.demo
         }
 
         final csci81_demo_finalproject_realm_RentalRealmProxyInterface objProxy = (csci81_demo_finalproject_realm_RentalRealmProxyInterface) obj;
+        if (json.has("transactionID")) {
+            if (json.isNull("transactionID")) {
+                objProxy.realmSet$transactionID(null);
+            } else {
+                objProxy.realmSet$transactionID((String) json.getString("transactionID"));
+            }
+        }
         if (json.has("userID")) {
             if (json.isNull("userID")) {
                 objProxy.realmSet$userID(null);
@@ -345,6 +420,13 @@ public class csci81_demo_finalproject_realm_RentalRealmProxy extends csci81.demo
                 objProxy.realmSet$movieID(null);
             } else {
                 objProxy.realmSet$movieID((String) json.getString("movieID"));
+            }
+        }
+        if (json.has("status")) {
+            if (json.isNull("status")) {
+                objProxy.realmSet$status(null);
+            } else {
+                objProxy.realmSet$status((String) json.getString("status"));
             }
         }
         if (json.has("rentalDate")) {
@@ -390,6 +472,13 @@ public class csci81_demo_finalproject_realm_RentalRealmProxy extends csci81.demo
                     objProxy.realmSet$rentalID(null);
                 }
                 jsonHasPrimaryKey = true;
+            } else if (name.equals("transactionID")) {
+                if (reader.peek() != JsonToken.NULL) {
+                    objProxy.realmSet$transactionID((String) reader.nextString());
+                } else {
+                    reader.skipValue();
+                    objProxy.realmSet$transactionID(null);
+                }
             } else if (name.equals("userID")) {
                 if (reader.peek() != JsonToken.NULL) {
                     objProxy.realmSet$userID((String) reader.nextString());
@@ -403,6 +492,13 @@ public class csci81_demo_finalproject_realm_RentalRealmProxy extends csci81.demo
                 } else {
                     reader.skipValue();
                     objProxy.realmSet$movieID(null);
+                }
+            } else if (name.equals("status")) {
+                if (reader.peek() != JsonToken.NULL) {
+                    objProxy.realmSet$status((String) reader.nextString());
+                } else {
+                    reader.skipValue();
+                    objProxy.realmSet$status(null);
                 }
             } else if (name.equals("rentalDate")) {
                 if (reader.peek() != JsonToken.NULL) {
@@ -502,8 +598,10 @@ public class csci81_demo_finalproject_realm_RentalRealmProxy extends csci81.demo
 
         // Add all non-"object reference" fields
         builder.addString(columnInfo.rentalIDColKey, unmanagedSource.realmGet$rentalID());
+        builder.addString(columnInfo.transactionIDColKey, unmanagedSource.realmGet$transactionID());
         builder.addString(columnInfo.userIDColKey, unmanagedSource.realmGet$userID());
         builder.addString(columnInfo.movieIDColKey, unmanagedSource.realmGet$movieID());
+        builder.addString(columnInfo.statusColKey, unmanagedSource.realmGet$status());
         builder.addString(columnInfo.rentalDateColKey, unmanagedSource.realmGet$rentalDate());
         builder.addString(columnInfo.returnDateColKey, unmanagedSource.realmGet$returnDate());
         builder.addInteger(columnInfo.quantityColKey, unmanagedSource.realmGet$quantity());
@@ -538,6 +636,10 @@ public class csci81_demo_finalproject_realm_RentalRealmProxy extends csci81.demo
             Table.throwDuplicatePrimaryKeyException(primaryKeyValue);
         }
         cache.put(object, objKey);
+        String realmGet$transactionID = ((csci81_demo_finalproject_realm_RentalRealmProxyInterface) object).realmGet$transactionID();
+        if (realmGet$transactionID != null) {
+            Table.nativeSetString(tableNativePtr, columnInfo.transactionIDColKey, objKey, realmGet$transactionID, false);
+        }
         String realmGet$userID = ((csci81_demo_finalproject_realm_RentalRealmProxyInterface) object).realmGet$userID();
         if (realmGet$userID != null) {
             Table.nativeSetString(tableNativePtr, columnInfo.userIDColKey, objKey, realmGet$userID, false);
@@ -545,6 +647,10 @@ public class csci81_demo_finalproject_realm_RentalRealmProxy extends csci81.demo
         String realmGet$movieID = ((csci81_demo_finalproject_realm_RentalRealmProxyInterface) object).realmGet$movieID();
         if (realmGet$movieID != null) {
             Table.nativeSetString(tableNativePtr, columnInfo.movieIDColKey, objKey, realmGet$movieID, false);
+        }
+        String realmGet$status = ((csci81_demo_finalproject_realm_RentalRealmProxyInterface) object).realmGet$status();
+        if (realmGet$status != null) {
+            Table.nativeSetString(tableNativePtr, columnInfo.statusColKey, objKey, realmGet$status, false);
         }
         String realmGet$rentalDate = ((csci81_demo_finalproject_realm_RentalRealmProxyInterface) object).realmGet$rentalDate();
         if (realmGet$rentalDate != null) {
@@ -586,6 +692,10 @@ public class csci81_demo_finalproject_realm_RentalRealmProxy extends csci81.demo
                 Table.throwDuplicatePrimaryKeyException(primaryKeyValue);
             }
             cache.put(object, objKey);
+            String realmGet$transactionID = ((csci81_demo_finalproject_realm_RentalRealmProxyInterface) object).realmGet$transactionID();
+            if (realmGet$transactionID != null) {
+                Table.nativeSetString(tableNativePtr, columnInfo.transactionIDColKey, objKey, realmGet$transactionID, false);
+            }
             String realmGet$userID = ((csci81_demo_finalproject_realm_RentalRealmProxyInterface) object).realmGet$userID();
             if (realmGet$userID != null) {
                 Table.nativeSetString(tableNativePtr, columnInfo.userIDColKey, objKey, realmGet$userID, false);
@@ -593,6 +703,10 @@ public class csci81_demo_finalproject_realm_RentalRealmProxy extends csci81.demo
             String realmGet$movieID = ((csci81_demo_finalproject_realm_RentalRealmProxyInterface) object).realmGet$movieID();
             if (realmGet$movieID != null) {
                 Table.nativeSetString(tableNativePtr, columnInfo.movieIDColKey, objKey, realmGet$movieID, false);
+            }
+            String realmGet$status = ((csci81_demo_finalproject_realm_RentalRealmProxyInterface) object).realmGet$status();
+            if (realmGet$status != null) {
+                Table.nativeSetString(tableNativePtr, columnInfo.statusColKey, objKey, realmGet$status, false);
             }
             String realmGet$rentalDate = ((csci81_demo_finalproject_realm_RentalRealmProxyInterface) object).realmGet$rentalDate();
             if (realmGet$rentalDate != null) {
@@ -625,6 +739,12 @@ public class csci81_demo_finalproject_realm_RentalRealmProxy extends csci81.demo
             objKey = OsObject.createRowWithPrimaryKey(table, pkColumnKey, primaryKeyValue);
         }
         cache.put(object, objKey);
+        String realmGet$transactionID = ((csci81_demo_finalproject_realm_RentalRealmProxyInterface) object).realmGet$transactionID();
+        if (realmGet$transactionID != null) {
+            Table.nativeSetString(tableNativePtr, columnInfo.transactionIDColKey, objKey, realmGet$transactionID, false);
+        } else {
+            Table.nativeSetNull(tableNativePtr, columnInfo.transactionIDColKey, objKey, false);
+        }
         String realmGet$userID = ((csci81_demo_finalproject_realm_RentalRealmProxyInterface) object).realmGet$userID();
         if (realmGet$userID != null) {
             Table.nativeSetString(tableNativePtr, columnInfo.userIDColKey, objKey, realmGet$userID, false);
@@ -636,6 +756,12 @@ public class csci81_demo_finalproject_realm_RentalRealmProxy extends csci81.demo
             Table.nativeSetString(tableNativePtr, columnInfo.movieIDColKey, objKey, realmGet$movieID, false);
         } else {
             Table.nativeSetNull(tableNativePtr, columnInfo.movieIDColKey, objKey, false);
+        }
+        String realmGet$status = ((csci81_demo_finalproject_realm_RentalRealmProxyInterface) object).realmGet$status();
+        if (realmGet$status != null) {
+            Table.nativeSetString(tableNativePtr, columnInfo.statusColKey, objKey, realmGet$status, false);
+        } else {
+            Table.nativeSetNull(tableNativePtr, columnInfo.statusColKey, objKey, false);
         }
         String realmGet$rentalDate = ((csci81_demo_finalproject_realm_RentalRealmProxyInterface) object).realmGet$rentalDate();
         if (realmGet$rentalDate != null) {
@@ -679,6 +805,12 @@ public class csci81_demo_finalproject_realm_RentalRealmProxy extends csci81.demo
                 objKey = OsObject.createRowWithPrimaryKey(table, pkColumnKey, primaryKeyValue);
             }
             cache.put(object, objKey);
+            String realmGet$transactionID = ((csci81_demo_finalproject_realm_RentalRealmProxyInterface) object).realmGet$transactionID();
+            if (realmGet$transactionID != null) {
+                Table.nativeSetString(tableNativePtr, columnInfo.transactionIDColKey, objKey, realmGet$transactionID, false);
+            } else {
+                Table.nativeSetNull(tableNativePtr, columnInfo.transactionIDColKey, objKey, false);
+            }
             String realmGet$userID = ((csci81_demo_finalproject_realm_RentalRealmProxyInterface) object).realmGet$userID();
             if (realmGet$userID != null) {
                 Table.nativeSetString(tableNativePtr, columnInfo.userIDColKey, objKey, realmGet$userID, false);
@@ -690,6 +822,12 @@ public class csci81_demo_finalproject_realm_RentalRealmProxy extends csci81.demo
                 Table.nativeSetString(tableNativePtr, columnInfo.movieIDColKey, objKey, realmGet$movieID, false);
             } else {
                 Table.nativeSetNull(tableNativePtr, columnInfo.movieIDColKey, objKey, false);
+            }
+            String realmGet$status = ((csci81_demo_finalproject_realm_RentalRealmProxyInterface) object).realmGet$status();
+            if (realmGet$status != null) {
+                Table.nativeSetString(tableNativePtr, columnInfo.statusColKey, objKey, realmGet$status, false);
+            } else {
+                Table.nativeSetNull(tableNativePtr, columnInfo.statusColKey, objKey, false);
             }
             String realmGet$rentalDate = ((csci81_demo_finalproject_realm_RentalRealmProxyInterface) object).realmGet$rentalDate();
             if (realmGet$rentalDate != null) {
@@ -728,8 +866,10 @@ public class csci81_demo_finalproject_realm_RentalRealmProxy extends csci81.demo
         csci81_demo_finalproject_realm_RentalRealmProxyInterface realmSource = (csci81_demo_finalproject_realm_RentalRealmProxyInterface) realmObject;
         Realm objectRealm = (Realm) ((RealmObjectProxy) realmObject).realmGet$proxyState().getRealm$realm();
         unmanagedCopy.realmSet$rentalID(realmSource.realmGet$rentalID());
+        unmanagedCopy.realmSet$transactionID(realmSource.realmGet$transactionID());
         unmanagedCopy.realmSet$userID(realmSource.realmGet$userID());
         unmanagedCopy.realmSet$movieID(realmSource.realmGet$movieID());
+        unmanagedCopy.realmSet$status(realmSource.realmGet$status());
         unmanagedCopy.realmSet$rentalDate(realmSource.realmGet$rentalDate());
         unmanagedCopy.realmSet$returnDate(realmSource.realmGet$returnDate());
         unmanagedCopy.realmSet$quantity(realmSource.realmGet$quantity());
@@ -743,8 +883,10 @@ public class csci81_demo_finalproject_realm_RentalRealmProxy extends csci81.demo
         Table table = realm.getTable(csci81.demo.finalproject.realm.Rental.class);
         OsObjectBuilder builder = new OsObjectBuilder(table, flags);
         builder.addString(columnInfo.rentalIDColKey, realmObjectSource.realmGet$rentalID());
+        builder.addString(columnInfo.transactionIDColKey, realmObjectSource.realmGet$transactionID());
         builder.addString(columnInfo.userIDColKey, realmObjectSource.realmGet$userID());
         builder.addString(columnInfo.movieIDColKey, realmObjectSource.realmGet$movieID());
+        builder.addString(columnInfo.statusColKey, realmObjectSource.realmGet$status());
         builder.addString(columnInfo.rentalDateColKey, realmObjectSource.realmGet$rentalDate());
         builder.addString(columnInfo.returnDateColKey, realmObjectSource.realmGet$returnDate());
         builder.addInteger(columnInfo.quantityColKey, realmObjectSource.realmGet$quantity());

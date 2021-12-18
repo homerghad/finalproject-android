@@ -1,7 +1,5 @@
 csci81/demo/finalproject/ChangePassword.java
  csci81.demo.finalproject.ChangePassword
-csci81/demo/finalproject/BuildConfig.java
- csci81.demo.finalproject.BuildConfig
 csci81/demo/finalproject/AccountPage.java
  csci81.demo.finalproject.AccountPage
 csci81/demo/finalproject/realm/User.java
@@ -16,5 +14,11 @@ csci81/demo/finalproject/RegisterPage.java
  csci81.demo.finalproject.RegisterPage
 csci81/demo/finalproject/RealmApp.java
  csci81.demo.finalproject.RealmApp
+csci81/demo/finalproject/ManageTransactionsActivity.java
+ csci81.demo.finalproject.ManageTransactionsActivity
+csci81/demo/finalproject/Dialog.java
+ csci81.demo.finalproject.Dialog
+ csci81.demo.finalproject.Dialog$1
+ csci81.demo.finalproject.Dialog$2
 csci81/demo/finalproject/LoginPage.java
  csci81.demo.finalproject.LoginPage

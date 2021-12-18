@@ -8,9 +8,11 @@ public class Rental extends RealmObject {
     @PrimaryKey
     private String rentalID;
 
+    private String transactionID; //FK
     private String userID; //FK
     private String movieID; //FK
 
+    private String status;
     private String rentalDate;
     private String returnDate;
     private int quantity;
@@ -35,6 +37,14 @@ public class Rental extends RealmObject {
         this.rentalID = rentalID;
     }
 
+    public String getTransactionID() {
+        return transactionID;
+    }
+
+    public void setTransactionID(String transactionID) {
+        this.transactionID = transactionID;
+    }
+
     public String getUserID() {
         return userID;
     }
@@ -49,6 +59,14 @@ public class Rental extends RealmObject {
 
     public void setMovieID(String movieID) {
         this.movieID = movieID;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 
     public String getRentalDate() {

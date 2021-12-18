@@ -1,5 +1,7 @@
 package csci81.demo.finalproject.realm;
 
+import java.util.List;
+
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
 

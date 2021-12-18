@@ -20,6 +20,9 @@
             android:name=".RegisterPage_"
             android:exported="false" />
         <activity
+            android:name=".ManageTransactionsActivity_"
+            android:exported="false" />
+        <activity
             android:name=".LoginPage_"
             android:exported="true">
             <intent-filter>

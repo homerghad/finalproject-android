@@ -32,6 +32,10 @@ dependencies {
 
     annotationProcessor "org.androidannotations:androidannotations:4.8.0"
     implementation "org.androidannotations:androidannotations-api:4.8.0"
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'androidx.navigation:navigation-fragment:2.3.5'
+    implementation 'androidx.navigation:navigation-ui:2.3.5'
+    implementation 'com.google.firebase:firebase-firestore:22.1.2'
 
     implementation 'io.realm:android-adapters:4.0.0'
 
