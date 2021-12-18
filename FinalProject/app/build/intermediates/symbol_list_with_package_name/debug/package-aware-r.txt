@@ -2180,6 +2180,7 @@ id quantity2
 id radio
 id ratio
 id rectangles
+id recyclerView
 id registerButton
 id returnButton
 id returnMovie
@@ -2421,6 +2422,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dialog_layout
+layout manage_transaction_page
 layout manage_transaction_row_layout
 layout material_chip_input_combo
 layout material_clock_display

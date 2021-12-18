@@ -47,7 +47,7 @@ public class AccountPage extends AppCompatActivity {
 
     @Click(R.id.manageInteractions)
     public void manageInteractions() {
-//        ManageInteractions_.intent(this).start();
+        ManageTransactionsActivity_.intent(this).start();
     }
 
     @Click(R.id.accPageBack)

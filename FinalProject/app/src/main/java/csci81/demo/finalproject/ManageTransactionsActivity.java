@@ -14,12 +14,15 @@ import org.androidannotations.annotations.ViewById;
 import java.util.List;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import csci81.demo.finalproject.realm.Rental;
 import csci81.demo.finalproject.realm.Transaction;
 import csci81.demo.finalproject.realm.User;
 import io.realm.Realm;
+import io.realm.RealmResults;
 
-@EActivity(R.layout.manage_transaction_row_layout)
+@EActivity(R.layout.manage_transaction_page)
 public class ManageTransactionsActivity extends AppCompatActivity {
     Gson gson = new Gson();
 
@@ -31,27 +34,47 @@ public class ManageTransactionsActivity extends AppCompatActivity {
     TextView quantity;
     @ViewById
     TextView status;
+    @ViewById
+    RecyclerView recyclerView;
 
     @AfterViews
     public void init() {
+        LinearLayoutManager mLayoutManager = new LinearLayoutManager(this);
+        mLayoutManager.setOrientation(RecyclerView.VERTICAL);
+        recyclerView.setLayoutManager(mLayoutManager);
+
         realm.init(this);
 
         realm = Realm.getDefaultInstance();
-        SharedPreferences sharedPreferences = getSharedPreferences("userSharedPrefs", MODE_PRIVATE);
-        User loggedUser = gson.fromJson(sharedPreferences.getString("loggedUser", null), User.class);
 
-        User existingUser = realm.where(User.class)
-                .equalTo("uuid", loggedUser.getUserID())
-                .findFirst();
+        // query the things to display
+        RealmResults<Rental> list = realm.where(Rental.class).findAll();
 
-        if (existingUser != null) {
-            List<Transaction> transactionList = realm.where(Transaction.class)
-                    .findAll();
+        // initialize Adapter
+        TransactionAdapter adapter = new TransactionAdapter(this, list,true);
+        recyclerView.setAdapter(adapter);
 
-            for (Transaction transaction : transactionList) {
+//        SharedPreferences sharedPreferences = getSharedPreferences("userSharedPrefs", MODE_PRIVATE);
+//        User loggedUser = gson.fromJson(sharedPreferences.getString("loggedUser", null), User.class);
 
-            }
-        }
+//        User existingUser = realm.where(User.class)
+//                .equalTo("uuid", loggedUser.getUserID())
+//                .findFirst();
+//
+//        if (existingUser != null) {
+//            List<Transaction> transactionList = realm.where(Transaction.class)
+//                    .findAll();
+//
+//            for (Transaction transaction : transactionList) {
+//
+//            }
+//        }
+    }
+
+    @Click(R.id.returnButton)
+    public void clickActionReturn() {
+        Dialog dialog = new Dialog("Are you sure you want to return ALL?");
+        dialog.show(this.getSupportFragmentManager(), "dialog");
     }
 
     public void delete(Rental rental) {

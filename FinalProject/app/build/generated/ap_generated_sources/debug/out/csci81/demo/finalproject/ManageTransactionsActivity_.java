@@ -13,6 +13,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup.LayoutParams;
 import androidx.core.app.ActivityCompat;
 import org.androidannotations.api.bean.BeanHolder;
@@ -35,7 +36,7 @@ public final class ManageTransactionsActivity_
         init_(savedInstanceState);
         super.onCreate(savedInstanceState);
         OnViewChangedNotifier.replaceNotifier(previousNotifier);
-        setContentView(R.layout.manage_transaction_row_layout);
+        setContentView(R.layout.manage_transaction_page);
     }
 
     @Override
@@ -92,6 +93,19 @@ public final class ManageTransactionsActivity_
         this.movie = hasViews.internalFindViewById(R.id.movie);
         this.quantity = hasViews.internalFindViewById(R.id.quantity);
         this.status = hasViews.internalFindViewById(R.id.status);
+        this.recyclerView = hasViews.internalFindViewById(R.id.recyclerView);
+        View view_returnButton = hasViews.internalFindViewById(R.id.returnButton);
+
+        if (view_returnButton!= null) {
+            view_returnButton.setOnClickListener(new OnClickListener() {
+
+                @Override
+                public void onClick(View view) {
+                    ManageTransactionsActivity_.this.clickActionReturn();
+                }
+            }
+            );
+        }
         init();
     }
 
