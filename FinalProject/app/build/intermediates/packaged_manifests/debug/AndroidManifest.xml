@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="csci81.demo.finalproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="31" />
+
+    <application
+        android:name="csci81.demo.finalproject.RealmApp"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.FinalProject" >
+        <activity
+            android:name="csci81.demo.finalproject.ChangePassword_"
+            android:exported="true" />
+        <activity
+            android:name="csci81.demo.finalproject.AccountPage_"
+            android:exported="true" />
+        <activity
+            android:name="csci81.demo.finalproject.RegisterPage_"
+            android:exported="false" />
+        <activity
+            android:name="csci81.demo.finalproject.LoginPage_"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

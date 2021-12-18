@@ -67,13 +67,13 @@ public class RegisterPage extends AppCompatActivity {
             Toast t = Toast.makeText(this, "New User saved. Total: " + count, Toast.LENGTH_LONG);
             t.show();
 
-            LoginPage_.intent(this).start();
+            finish();
         }
     }
 
     @Click(R.id.cancelButton)
     public void clickCancelButton() {
-        LoginPage_.intent(this).start();
+        finish();
     }
 
 }

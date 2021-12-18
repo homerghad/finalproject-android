@@ -35,25 +35,25 @@ public class LoginPage extends AppCompatActivity {
 
         realm = Realm.getDefaultInstance();
 
-//        SharedPreferences sp = getSharedPreferences("MyPrefs", MODE_PRIVATE);
-//        String uuid = sp.getString("uuid", null);
-//        boolean checked = sp.getBoolean("isBoxChecked", false);
-//
-//        User result = realm.where(User.class)
-//                .equalTo("uuid", uuid)
-//                .findFirst();
-//
-//        if (checked) {
-//            if (result != null) {
-//                nameInput1.setText(result.getName());
-//                passwordInput1.setText(result.getPassword());
-//                checkBox.setChecked(true);
-//            } else {
-//                nameInput1.setText("");
-//                passwordInput1.setText("");
-//                checkBox.setChecked(false);
-//            }
-//        }
+        SharedPreferences sp = getSharedPreferences("MyPrefs", MODE_PRIVATE);
+        String uuid = sp.getString("uuid", null);
+        boolean checked = sp.getBoolean("isBoxChecked", false);
+
+        User result = realm.where(User.class)
+                .equalTo("userID", uuid)
+                .findFirst();
+
+        if (checked) {
+            if (result != null) {
+                nameInput1.setText(result.getName());
+                passwordInput1.setText(result.getPassword());
+                checkBox.setChecked(true);
+            } else {
+                nameInput1.setText("");
+                passwordInput1.setText("");
+                checkBox.setChecked(false);
+            }
+        }
 
     }
 
@@ -83,6 +83,9 @@ public class LoginPage extends AppCompatActivity {
                 edit.putString("uuid", uuid);
                 edit.apply();
                 //WelcomeScreen_.intent(this).start();
+
+                //temporary code for testing account page. replace with homepage.
+                AccountPage_.intent(this).start();
 
             } else {
                 Toast t = Toast.makeText(this, "Invalid Credentials", Toast.LENGTH_LONG);
