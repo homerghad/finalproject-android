@@ -11,6 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalProject">
         <activity
+            android:name=".ResultsPage_"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage_"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
             android:name=".ChangePassword_"
             android:exported="true" />
         <activity
