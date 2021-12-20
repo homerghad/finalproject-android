@@ -68,8 +68,8 @@ public class TransactionAdapter extends RealmRecyclerViewAdapter<Rental, Transac
         Rental rental = getItem(position);
 
         // copy all the values needed to the appropriate views
-        holder.movie.setText(rental.getMovieID().toString());
-        holder.quantity.setText(rental.getQuantity());
+        holder.movie.setText(rental.getMovieID());
+        holder.quantity.setText(String.valueOf(rental.getQuantity()));
         holder.status.setText(rental.getStatus());
 
         // NOTE: MUST BE A STRING NOT INTs, etc.

@@ -12,6 +12,7 @@ import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
 
 import java.util.List;
+import java.util.UUID;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -47,6 +48,8 @@ public class ManageTransactionsActivity extends AppCompatActivity {
 
         realm = Realm.getDefaultInstance();
 
+        populateRentals();
+
         // query the things to display
         RealmResults<Rental> list = realm.where(Rental.class).findAll();
 
@@ -69,6 +72,47 @@ public class ManageTransactionsActivity extends AppCompatActivity {
 //
 //            }
 //        }
+    }
+
+    private void populateRentals() {
+        Rental rental1 = new Rental();
+        rental1.setUserID(UUID.randomUUID().toString());
+        rental1.setMovieID(UUID.randomUUID().toString());
+        rental1.setTransactionID(UUID.randomUUID().toString());
+        rental1.setRentalID(UUID.randomUUID().toString());
+        rental1.setRentalDate("01-01-2022");
+        rental1.setQuantity(2);
+        rental1.setStatus("Pending Return");
+
+        realm.beginTransaction();
+        realm.copyToRealmOrUpdate(rental1);  // save
+        realm.commitTransaction();
+
+        Rental rental2 = new Rental();
+        rental2.setUserID(UUID.randomUUID().toString());
+        rental2.setMovieID(UUID.randomUUID().toString());
+        rental2.setTransactionID(UUID.randomUUID().toString());
+        rental2.setRentalID(UUID.randomUUID().toString());
+        rental2.setRentalDate("01-01-2022");
+        rental2.setQuantity(2);
+        rental2.setStatus("Pending Return");
+
+        realm.beginTransaction();
+        realm.copyToRealmOrUpdate(rental2);  // save
+        realm.commitTransaction();
+
+        Rental rental3 = new Rental();
+        rental3.setUserID(UUID.randomUUID().toString());
+        rental3.setMovieID(UUID.randomUUID().toString());
+        rental3.setTransactionID(UUID.randomUUID().toString());
+        rental3.setRentalID(UUID.randomUUID().toString());
+        rental3.setRentalDate("01-01-2022");
+        rental3.setQuantity(2);
+        rental3.setStatus("Pending Return");
+
+        realm.beginTransaction();
+        realm.copyToRealmOrUpdate(rental3);  // save
+        realm.commitTransaction();
     }
 
     @Click(R.id.returnButton)

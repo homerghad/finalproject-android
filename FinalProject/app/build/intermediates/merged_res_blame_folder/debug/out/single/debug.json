@@ -40,12 +40,12 @@
         "source": "D:\\Git\\Projects\\finalproject-android\\FinalProject\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "D:\\Git\\Projects\\finalproject-android\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "D:\\Git\\Projects\\finalproject-android\\FinalProject\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
-    },
-    {
         "merged": "D:\\Git\\Projects\\finalproject-android\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\layout_manage_transaction_page.xml.flat",
         "source": "D:\\Git\\Projects\\finalproject-android\\FinalProject\\app\\src\\main\\res\\layout\\manage_transaction_page.xml"
+    },
+    {
+        "merged": "D:\\Git\\Projects\\finalproject-android\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "D:\\Git\\Projects\\finalproject-android\\FinalProject\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
         "merged": "D:\\Git\\Projects\\finalproject-android\\FinalProject\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
