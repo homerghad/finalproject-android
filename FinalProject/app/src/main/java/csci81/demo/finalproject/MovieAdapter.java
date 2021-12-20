@@ -14,8 +14,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.UUID;
 
+import csci81.demo.finalproject.realm.Cart;
 import csci81.demo.finalproject.realm.Movie;
-import csci81.demo.finalproject.realm.Transaction;
+import csci81.demo.finalproject.realm.User;
 import io.realm.OrderedRealmCollection;
 import io.realm.Realm;
 import io.realm.RealmRecyclerViewAdapter;
@@ -65,14 +66,19 @@ public class MovieAdapter extends RealmRecyclerViewAdapter<Movie, MovieAdapter.V
             @Override
             public void onClick(View view) {
 
-                SharedPreferences sp = homePage.getSharedPreferences("MyPrefs", MODE_PRIVATE);
-                SharedPreferences.Editor edit = sp.edit();
+                // String uuid = movie.getMovieID(); should I use this?
 
-                String transcationID = UUID.randomUUID().toString();
+                Cart cart = new Cart();
+                cart.setCartID(UUID.randomUUID().toString());
 
-                String movieID = (transcationID.toString());
-                edit.putString("movieID", movieID);
-                edit.apply();
+                realm.beginTransaction();
+                realm.copyToRealmOrUpdate(cart);
+                realm.commitTransaction();
+
+//                SharedPreferences sp = homePage.getSharedPreferences("MyPrefs", MODE_PRIVATE);
+//                SharedPreferences.Editor edit = sp.edit();
+//                edit.put("movieID", movieID);
+//                edit.apply();
 
                 Toast t = Toast.makeText(homePage, "Added to Cart", Toast.LENGTH_LONG);
                 t.show();
