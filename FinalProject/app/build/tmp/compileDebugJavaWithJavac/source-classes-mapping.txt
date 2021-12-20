@@ -1,30 +1,44 @@
-csci81/demo/finalproject/ChangePassword.java
- csci81.demo.finalproject.ChangePassword
-csci81/demo/finalproject/BuildConfig.java
- csci81.demo.finalproject.BuildConfig
+csci81/demo/finalproject/HomePage.java
+ csci81.demo.finalproject.HomePage
+csci81/demo/finalproject/MovieAdapter.java
+ csci81.demo.finalproject.MovieAdapter
+ csci81.demo.finalproject.MovieAdapter$1
+ csci81.demo.finalproject.MovieAdapter$ViewHolder
 csci81/demo/finalproject/AccountPage.java
  csci81.demo.finalproject.AccountPage
 csci81/demo/finalproject/realm/User.java
  csci81.demo.finalproject.realm.User
 csci81/demo/finalproject/realm/Transaction.java
  csci81.demo.finalproject.realm.Transaction
-csci81/demo/finalproject/realm/Movie.java
- csci81.demo.finalproject.realm.Movie
-csci81/demo/finalproject/realm/Rental.java
- csci81.demo.finalproject.realm.Rental
-csci81/demo/finalproject/RegisterPage.java
- csci81.demo.finalproject.RegisterPage
 csci81/demo/finalproject/TransactionAdapter.java
  csci81.demo.finalproject.TransactionAdapter
  csci81.demo.finalproject.TransactionAdapter$1
  csci81.demo.finalproject.TransactionAdapter$ViewHolder
 csci81/demo/finalproject/RealmApp.java
  csci81.demo.finalproject.RealmApp
+csci81/demo/finalproject/LoginPage.java
+ csci81.demo.finalproject.LoginPage
+csci81/demo/finalproject/CheckoutPage.java
+ csci81.demo.finalproject.CheckoutPage
+csci81/demo/finalproject/ResultsPage.java
+ csci81.demo.finalproject.ResultsPage
+csci81/demo/finalproject/ChangePassword.java
+ csci81.demo.finalproject.ChangePassword
+csci81/demo/finalproject/BuildConfig.java
+ csci81.demo.finalproject.BuildConfig
+csci81/demo/finalproject/realm/Movie.java
+ csci81.demo.finalproject.realm.Movie
+csci81/demo/finalproject/CartAdapter.java
+ csci81.demo.finalproject.CartAdapter
+ csci81.demo.finalproject.CartAdapter$1
+ csci81.demo.finalproject.CartAdapter$ViewHolder
+csci81/demo/finalproject/realm/Rental.java
+ csci81.demo.finalproject.realm.Rental
+csci81/demo/finalproject/RegisterPage.java
+ csci81.demo.finalproject.RegisterPage
 csci81/demo/finalproject/ManageTransactionsActivity.java
  csci81.demo.finalproject.ManageTransactionsActivity
 csci81/demo/finalproject/Dialog.java
  csci81.demo.finalproject.Dialog
  csci81.demo.finalproject.Dialog$1
  csci81.demo.finalproject.Dialog$2
-csci81/demo/finalproject/LoginPage.java
- csci81.demo.finalproject.LoginPage

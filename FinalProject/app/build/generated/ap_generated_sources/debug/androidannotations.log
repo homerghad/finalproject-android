@@ -1,0 +1,1 @@
+22:42:45.464 [Execution worker for ':' Thread 9] WARN  o.a.i.p.ModelValidator:78 - The component CheckoutPage_ is not registered in the AndroidManifest.xml file.

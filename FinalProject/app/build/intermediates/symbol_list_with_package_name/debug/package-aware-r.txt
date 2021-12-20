@@ -1897,7 +1897,8 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
-id addButton
+id addLabel
+id addToCart
 id alertTitle
 id aligned
 id all
@@ -1944,6 +1945,11 @@ id changePassUser
 id checkBox
 id checkbox
 id checked
+id checkoutBackButton
+id checkoutButton
+id checkoutClearButton
+id checkoutRecyclerView
+id checkoutTitle
 id chip
 id chip1
 id chip2
@@ -2041,6 +2047,10 @@ id header_title
 id hideable
 id home
 id homeAsUp
+id homeGreeting
+id homeRecyclerView
+id homeSearchButton
+id homeUsername
 id honorRequest
 id horizontal_only
 id icon
@@ -2067,8 +2077,10 @@ id legacy
 id line1
 id line3
 id linear
+id linearLayout
 id listMode
 id list_item
+id logoutButton
 id mainTitle1
 id mainTitle2
 id manageInteractions
@@ -2105,7 +2117,9 @@ id month_navigation_previous
 id month_title
 id motion_base
 id movie
-id movieGenre
+id movieImage
+id moviePrice
+id movieTitle
 id mtrl_anchor_parent
 id mtrl_calendar_day_selector_frame
 id mtrl_calendar_days_of_week
@@ -2176,7 +2190,6 @@ id postLayout
 id progress_circular
 id progress_horizontal
 id quantity
-id quantity2
 id radio
 id ratio
 id rectangles
@@ -2202,6 +2215,10 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchBox
+id searchRecyclerView
+id searchResultsBackButton
+id searchTitle
 id search_badge
 id search_bar
 id search_button
@@ -2254,7 +2271,6 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
-id subtractButton
 id supportScrollUp
 id tabMode
 id tag_accessibility_actions
@@ -2316,7 +2332,9 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id userImage
 id vertical_only
+id videoLabel
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -2402,8 +2420,11 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_account_page
 layout activity_change_password
+layout activity_checkout_page
+layout activity_home_page
 layout activity_login_page
 layout activity_register_page
+layout activity_results_page
 layout checkout_row_layout
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2492,6 +2513,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout video_row_layout
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description

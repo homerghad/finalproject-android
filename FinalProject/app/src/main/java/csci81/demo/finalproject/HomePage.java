@@ -95,7 +95,7 @@ public class HomePage extends AppCompatActivity {
     @Click(R.id.homeSearchButton)
     public void search() {
         Movie result = realm.where(Movie.class)
-                .equalTo("title", searchBox.getText().toString())
+                .contains("title", searchBox.getText().toString())
                 .findFirst();
         ResultsPage_.intent(this).start();
 

@@ -4,8 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Git/Projects/finalproject-android/FinalProject/app/src/main/res/layout/activity_account_page.xml" value="0.12708333333333333" />
+        <entry key="..\:/Git/Projects/finalproject-android/FinalProject/app/src/main/res/layout/activity_checkout_page.xml" value="0.42657342657342656" />
+        <entry key="..\:/Git/Projects/finalproject-android/FinalProject/app/src/main/res/layout/activity_home_page.xml" value="0.4" />
+        <entry key="..\:/Git/Projects/finalproject-android/FinalProject/app/src/main/res/layout/activity_results_page.xml" value="0.12708333333333333" />
+        <entry key="..\:/Git/Projects/finalproject-android/FinalProject/app/src/main/res/layout/checkout_row_layout.xml" value="0.4" />
         <entry key="..\:/Git/Projects/finalproject-android/FinalProject/app/src/main/res/layout/manage_transaction_page.xml" value="0.4" />
         <entry key="..\:/Git/Projects/finalproject-android/FinalProject/app/src/main/res/layout/manage_transaction_row_layout.xml" value="0.6" />
+        <entry key="..\:/Git/Projects/finalproject-android/FinalProject/app/src/main/res/layout/video_row_layout.xml" value="0.4" />
         <entry key="..\:/Users/Laggy/AndroidStudioProjects/FinalProject/app/src/main/res/layout/activity_account_page.xml" value="0.25" />
         <entry key="..\:/Users/Laggy/AndroidStudioProjects/FinalProject/app/src/main/res/layout/activity_change_password.xml" value="0.25" />
         <entry key="..\:/Users/Laggy/AndroidStudioProjects/FinalProject/app/src/main/res/layout/activity_login_page.xml" value="0.25" />

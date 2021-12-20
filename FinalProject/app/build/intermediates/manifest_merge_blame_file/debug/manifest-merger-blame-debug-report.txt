@@ -11,7 +11,7 @@
 9-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:5:5-34:19
+11-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:5:5-41:19
 12        android:name="csci81.demo.finalproject.RealmApp"
 12-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:6:9-33
 13        android:allowBackup="true"
@@ -27,50 +27,63 @@
 18-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:10:9-54
 19        android:supportsRtl="true"
 19-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:11:9-35
-20        android:testOnly="true"
-21        android:theme="@style/Theme.FinalProject" >
-21-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:12:9-50
-22        <activity
-22-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:13:9-15:39
-23            android:name="csci81.demo.finalproject.ChangePassword_"
-23-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:14:13-44
-24            android:exported="true" />
-24-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:15:13-36
-25        <activity
-25-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:16:9-18:39
-26            android:name="csci81.demo.finalproject.AccountPage_"
-26-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:17:13-41
-27            android:exported="true" />
-27-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:18:13-36
+20        android:theme="@style/Theme.FinalProject" >
+20-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:12:9-50
+21        <activity
+21-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:13:9-15:40
+22            android:name="csci81.demo.finalproject.ResultsPage_"
+22-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:14:13-41
+23            android:exported="false" />
+23-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:15:13-37
+24        <activity
+24-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:16:9-19:54
+25            android:name="csci81.demo.finalproject.HomePage_"
+25-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:17:13-38
+26            android:exported="false"
+26-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:18:13-37
+27            android:windowSoftInputMode="adjustPan" />
+27-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:19:13-52
 28        <activity
-28-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:19:9-21:40
-29            android:name="csci81.demo.finalproject.RegisterPage_"
-29-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:20:13-42
-30            android:exported="false" />
-30-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:21:13-37
+28-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:20:9-22:39
+29            android:name="csci81.demo.finalproject.ChangePassword_"
+29-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:21:13-44
+30            android:exported="true" />
+30-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:22:13-36
 31        <activity
-31-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:22:9-24:40
-32            android:name="csci81.demo.finalproject.ManageTransactionsActivity_"
-32-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:23:13-56
-33            android:exported="false" />
-33-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:24:13-37
+31-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:23:9-25:39
+32            android:name="csci81.demo.finalproject.AccountPage_"
+32-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:24:13-41
+33            android:exported="true" />
+33-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:25:13-36
 34        <activity
-34-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:25:9-33:20
-35            android:name="csci81.demo.finalproject.LoginPage_"
-35-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:26:13-39
-36            android:exported="true" >
-36-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:27:13-36
-37            <intent-filter>
-37-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:28:13-32:29
-38                <action android:name="android.intent.action.MAIN" />
-38-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:29:17-69
-38-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:29:25-66
-39
-40                <category android:name="android.intent.category.LAUNCHER" />
-40-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:31:17-77
-40-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:31:27-74
-41            </intent-filter>
-42        </activity>
-43    </application>
-44
-45</manifest>
+34-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:26:9-28:40
+35            android:name="csci81.demo.finalproject.RegisterPage_"
+35-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:27:13-42
+36            android:exported="false" />
+36-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:28:13-37
+37        <activity
+37-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:29:9-31:40
+38            android:name="csci81.demo.finalproject.ManageTransactionsActivity_"
+38-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:30:13-56
+39            android:exported="false" />
+39-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:31:13-37
+40        <activity
+40-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:32:9-40:20
+41            android:name="csci81.demo.finalproject.LoginPage_"
+41-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:33:13-39
+42            android:exported="true" >
+42-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:34:13-36
+43            <intent-filter>
+43-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:35:13-39:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:36:17-69
+44-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:36:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:38:17-77
+46-->D:\Git\Projects\finalproject-android\FinalProject\app\src\main\AndroidManifest.xml:38:27-74
+47            </intent-filter>
+48        </activity>
+49    </application>
+50
+51</manifest>
