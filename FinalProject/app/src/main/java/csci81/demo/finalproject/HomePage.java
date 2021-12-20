@@ -18,6 +18,7 @@ import org.androidannotations.annotations.ViewById;
 
 
 import csci81.demo.finalproject.realm.Movie;
+import csci81.demo.finalproject.realm.Transaction;
 import csci81.demo.finalproject.realm.User;
 import io.realm.Realm;
 import io.realm.RealmResults;
@@ -60,22 +61,23 @@ public class HomePage extends AppCompatActivity {
         homeGreeting.setText("Welcome, " + result.getName() + "!");
 
 
-//        Movie m = new Movie();
-//        m.setTitle("Your Name");
-//        m.setRentalCost(100);
-//
-//        realm.beginTransaction();
-//        realm.copyToRealmOrUpdate(m);
-//        realm.commitTransaction();
+        String id = sp.getString("movieID", null);
+        Transaction transaction = new Transaction();
+        transaction.setTransactionID(id);
+        realm.beginTransaction();
+        realm.copyToRealmOrUpdate(transaction);
+        realm.commitTransaction();
 
-//        LinearLayoutManager mLayoutManager = new LinearLayoutManager(this);
-//        mLayoutManager.setOrientation(RecyclerView.VERTICAL);
-//        homeRecyclerView.setLayoutManager(mLayoutManager);
-//
-//        RealmResults<Movie> results = realm.where(Movie.class).findAll();
-//
-//        MovieAdapter adapter = new MovieAdapter(this, results, true);
-//        homeRecyclerView.setAdapter(adapter);
+        LinearLayoutManager mLayoutManager = new LinearLayoutManager(this);
+        mLayoutManager.setOrientation(RecyclerView.VERTICAL);
+        homeRecyclerView.setLayoutManager(mLayoutManager);
+
+        RealmResults<Movie> results = realm.where(Movie.class).findAll();
+
+        MovieAdapter adapter = new MovieAdapter(this, results, true);
+        homeRecyclerView.setAdapter(adapter);
+
+
     }
 
     @Click(R.id.userImage)
@@ -101,6 +103,11 @@ public class HomePage extends AppCompatActivity {
 
     @Click(R.id.checkoutButton)
     public void checkout() {
+
+        long count = realm.where(User.class).count();
+        //RealmResults<Transaction> results = realm.where(Transaction.class).findAll();
+        Toast t = Toast.makeText(this, Long.toString(count), Toast.LENGTH_LONG);
+        t.show();
         //CheckoutPage_.intent(this).start();
     }
 
