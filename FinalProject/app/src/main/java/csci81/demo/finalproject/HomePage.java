@@ -17,6 +17,7 @@ import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
 
 
+import csci81.demo.finalproject.realm.Cart;
 import csci81.demo.finalproject.realm.Movie;
 import csci81.demo.finalproject.realm.Transaction;
 import csci81.demo.finalproject.realm.User;
@@ -61,12 +62,12 @@ public class HomePage extends AppCompatActivity {
         homeGreeting.setText("Welcome, " + result.getName() + "!");
 
 
-        String id = sp.getString("movieID", null);
-        Transaction transaction = new Transaction();
-        transaction.setTransactionID(id);
-        realm.beginTransaction();
-        realm.copyToRealmOrUpdate(transaction);
-        realm.commitTransaction();
+//        String id = sp.getString("movieID", null);
+//        Cart cart = new Cart();
+//        cart.setCartID(id);
+//        realm.beginTransaction();
+//        realm.copyToRealmOrUpdate(cart);
+//        realm.commitTransaction();
 
         LinearLayoutManager mLayoutManager = new LinearLayoutManager(this);
         mLayoutManager.setOrientation(RecyclerView.VERTICAL);
@@ -94,9 +95,14 @@ public class HomePage extends AppCompatActivity {
 
     @Click(R.id.homeSearchButton)
     public void search() {
-        Movie result = realm.where(Movie.class)
-                .contains("title", searchBox.getText().toString())
-                .findFirst();
+
+        String search = searchBox.getText().toString();
+
+        SharedPreferences sp = getSharedPreferences("MyPrefs", MODE_PRIVATE);
+        SharedPreferences.Editor edit = sp.edit();
+        edit.putString("search", search);
+        edit.apply();
+
         ResultsPage_.intent(this).start();
 
     }
